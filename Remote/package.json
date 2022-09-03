@@ -1,5 +1,5 @@
 {
-  "name": "module-federation",
+  "name": "remote",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
@@ -9,6 +9,7 @@
     "type-check": "vue-tsc --noEmit"
   },
   "dependencies": {
+    "@originjs/vite-plugin-federation": "^1.1.9",
     "vue": "^3.2.37",
     "vue-router": "^4.1.3"
   },
